@@ -1,0 +1,68 @@
+{
+  "version": "1",
+  "generated_at": "2026-06-03T00:30:06.952Z",
+  "description": "Editable fields exposed to the generated admin panel. Each section maps to a site_data table row via section_key.",
+  "sections": [
+    {
+      "section_key": "hero",
+      "page_slug": "homepage",
+      "label": "Hero Section",
+      "fields": [
+        {
+          "key": "heading",
+          "type": "text",
+          "label": "Heading",
+          "placeholder": "Your site is ready to be built."
+        },
+        {
+          "key": "subheading",
+          "type": "text",
+          "label": "Subheading",
+          "placeholder": "Starter placeholder — replace with your message."
+        },
+        {
+          "key": "cta_label",
+          "type": "text",
+          "label": "CTA Button Label",
+          "placeholder": "Get Started"
+        },
+        {
+          "key": "cta_url",
+          "type": "url",
+          "label": "CTA Button URL",
+          "placeholder": "#contact"
+        }
+      ]
+    },
+    {
+      "section_key": "contact",
+      "page_slug": "homepage",
+      "label": "Contact Section",
+      "fields": [
+        {
+          "key": "email",
+          "type": "email",
+          "label": "Contact Email",
+          "placeholder": "hello@example.com"
+        },
+        {
+          "key": "phone",
+          "type": "text",
+          "label": "Phone",
+          "placeholder": ""
+        },
+        {
+          "key": "address",
+          "type": "textarea",
+          "label": "Address",
+          "placeholder": ""
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "This file is a starter schema. Replace with real sections after site generation.",
+    "Each section_key maps to formaut_os.site_content.section_key.",
+    "Admin panel reads this file to know which fields to expose per section."
+  ]
+}
