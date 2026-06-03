@@ -1,0 +1,17 @@
+{
+  "version": "1",
+  "generated_at": "2026-06-03T00:30:06.952Z",
+  "description": "Current deployment source and bootstrap state. Updated by Formaut on each deploy or provisioning event.",
+  "source": "repo_b",
+  "repo": "formautdemo/formautdemo-y0rv-site",
+  "branch": "main",
+  "pages_project": {
+    "data": ""
+  },
+  "bootstrap_state": "seeded",
+  "last_deploy_at": null,
+  "notes": [
+    "source: repo_b = Cloudflare Pages deploys from this GitHub repo (<slug>-site).",
+    "bootstrap_state: seeded = starter files committed; generated = real site generated; live = live deploy confirmed."
+  ]
+}
