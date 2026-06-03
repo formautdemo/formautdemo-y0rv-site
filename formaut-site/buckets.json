@@ -1,0 +1,18 @@
+{
+  "version": "1",
+  "generated_at": "2026-06-03T00:30:06.952Z",
+  "description": "Expected Supabase Storage buckets for the client site. Populated as capabilities are installed.",
+  "supabase_project": "site_data",
+  "buckets": [
+    {
+      "name": "public-assets",
+      "public": true,
+      "status": "planned",
+      "notes": "General public assets: images, logos, icons. Created when first media upload occurs."
+    }
+  ],
+  "notes": [
+    "status: planned = not yet created; active = provisioned and in use.",
+    "Update this file via site_bucket_manifest writeback when buckets are provisioned."
+  ]
+}
