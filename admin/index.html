@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+  Formaut Generated Admin Panel — Starter
+  ========================================
+  This file is designed as a target for an external agent to build into a
+  real Supabase-backed admin panel. The agent should:
+    1. Read the AGENT_HANDOFF.md at the root of this repo for context.
+    2. Replace the FORMAUT:REPLACE:ADMIN_SECTIONS marker below with real
+       editable sections (hero, services, SEO, hours, contact, etc.).
+    3. Wire each section to read from and write to the Supabase site_data
+       project using an agent token issued from the Formaut Dashboard.
+    4. Stage all changes through Formaut's writeback/approval path.
+
+  IMPORTANT: Do NOT hardcode any Supabase URL, service-role key, or other
+  secret in this file. Configuration is provided at runtime by the client.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formaut Generated Admin Panel — Starter</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; color: #1a1a1a; background: #f3f4f6; line-height: 1.6; }
+    .admin-header { padding: 1rem 1.5rem; background: #1e293b; color: #f8fafc; display: flex; align-items: center; gap: 1rem; }
+    .admin-header h1 { font-size: 1.125rem; font-weight: 600; }
+    .admin-body { padding: 2rem 1.5rem; max-width: 48rem; margin: 0 auto; }
+    .placeholder { background: #fff; border: 1px solid #e5e7eb; border-radius: 0.5rem; padding: 2rem; text-align: center; color: #6b7280; }
+    .placeholder h2 { font-size: 1rem; margin-bottom: 0.5rem; color: #374151; }
+  </style>
+</head>
+<body>
+  <header class="admin-header">
+    <h1>Formaut Generated Admin Panel — Starter</h1>
+  </header>
+
+  <main class="admin-body">
+    <!-- FORMAUT:REPLACE:ADMIN_SECTIONS -->
+    <div class="placeholder">
+      <h2>Admin sections not yet generated</h2>
+      <p>An external agent will replace this area with editable site content sections backed by your Supabase site_data project.</p>
+    </div>
+    <!-- /FORMAUT:REPLACE:ADMIN_SECTIONS -->
+  </main>
+</body>
+</html>
