@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "generated_at": "2026-06-03T00:30:06.952Z",
+  "description": "Describes which site_data project tables and fields the site and admin panel depend on.",
+  "supabase_project": "site_data",
+  "tables": [
+    {
+      "table": "site_content",
+      "usage": "read_write",
+      "notes": "Stores editable section content keyed by page_slug + section_key."
+    },
+    {
+      "table": "seo_metadata",
+      "usage": "read_write",
+      "notes": "Per-page SEO title, description, and keywords."
+    },
+    {
+      "table": "email_rules",
+      "usage": "read_write",
+      "notes": "Agent-proposed email automation rules (draft → enabled by client)."
+    },
+    {
+      "table": "email_templates",
+      "usage": "read_write",
+      "notes": "Email templates (draft → active by client)."
+    }
+  ],
+  "notes": [
+    "This contract is informational only — it does not enforce schema.",
+    "Update this file when new tables or columns are added by a schema writeback."
+  ]
+}
