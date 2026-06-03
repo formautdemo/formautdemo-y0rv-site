@@ -1,0 +1,23 @@
+{
+  "version": "1",
+  "generated_at": "2026-06-03T00:30:06.952Z",
+  "description": "Approved admin and editor auth model for the generated admin panel. No secrets stored here.",
+  "admin_panel_auth": {
+    "model": "formaut_agent_token",
+    "token_source": "formaut_dashboard_settings",
+    "token_scope_required": [
+      "site:write",
+      "site:deploy"
+    ],
+    "notes": [
+      "Admin panel authenticates via agent tokens issued from the Formaut Dashboard.",
+      "Tokens are scoped to site:write and/or site:deploy — never to writebacks:write.",
+      "No service-role keys or platform credentials are embedded in admin panel HTML or JS."
+    ]
+  },
+  "editor_model": "not_yet_defined",
+  "notes": [
+    "Update editor_model when a multi-editor or public auth capability is installed.",
+    "Do not store Supabase service-role keys in this file or in any generated HTML."
+  ]
+}
