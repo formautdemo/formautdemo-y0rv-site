@@ -1,0 +1,11 @@
+{
+  "version": "1",
+  "generated_at": "2026-06-03T00:30:06.952Z",
+  "capabilities": [
+    {
+      "id": "base",
+      "label": "Formaut Base Runtime",
+      "status": "active"
+    }
+  ]
+}
