@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "generated_at": "2026-06-03T00:30:06.952Z",
+  "public_runtime_mode": "static_pages",
+  "pages_functions_status": "not_installed",
+  "site_worker_status": "not_installed",
+  "generated_admin_panel_status": "starter_placeholder",
+  "generated_admin_panel_location": "/admin/index.html",
+  "admin_manifest_status": "empty",
+  "admin_manifest_location": "formaut-meta/admin-manifest.json",
+  "expected_package_types": [
+    "site_pages_deploy",
+    "generated_admin_panel_deploy",
+    "admin_manifest_update",
+    "site_data_schema_change"
+  ],
+  "approval_requirements": {
+    "site_pages_deploy": "required",
+    "generated_admin_panel_deploy": "required",
+    "admin_manifest_update": "required",
+    "site_data_schema_change": "required",
+    "pages_functions_package": "required",
+    "site_worker_package": "required"
+  },
+  "decision_guidance": "Use static Cloudflare Pages by default. Only add Pages Functions or Site Worker when justified. Do not deploy Worker 3 by default."
+}
