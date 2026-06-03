@@ -1,0 +1,18 @@
+{
+  "version": "1",
+  "generated_at": "2026-06-03T00:30:06.952Z",
+  "slug": "formautdemo-y0rv",
+  "package": "formaut-starter",
+  "public_entry": "/index.html",
+  "admin_entry": "/admin/index.html",
+  "pages_deployment": {
+    "provider": "cloudflare_pages",
+    "branch": "main",
+    "project_name": {
+      "data": ""
+    }
+  },
+  "notes": [
+    "slug and pages_deployment.project_name are populated at seed time when available."
+  ]
+}
