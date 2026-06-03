@@ -1,0 +1,18 @@
+{
+  "version": "1",
+  "generated_at": "2026-06-03T00:30:06.952Z",
+  "instructions": [
+    "Read AGENT_HANDOFF.md at the repo root before generating any files.",
+    "Replace index.html content between FORMAUT:REPLACE markers with the real site.",
+    "Replace admin/index.html FORMAUT:REPLACE:ADMIN_SECTIONS with real editable sections.",
+    "Each admin section should read and write to Supabase site_data via the Formaut relay.",
+    "Stage all generated files through Formaut writeback/approval before committing live.",
+    "Do not place secrets, tokens, or credentials in any generated HTML or JSON file."
+  ],
+  "next_steps": [
+    "Generate index.html: replace hero and content markers with real site content.",
+    "Generate admin/index.html: replace admin sections marker with editable panel modules.",
+    "Wire admin sections to Supabase site_data via agent token and relay URL.",
+    "Submit all changes as agent writeback proposals through the Formaut Dashboard."
+  ]
+}
